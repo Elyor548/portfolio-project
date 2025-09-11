@@ -1,22 +1,18 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import Navbar from'/Users/macbookpro/Desktop/react7/my-app/src/componets/nav /Navbar'
+import Header from './componets/header/Header';
+import Reason from './componets/reason/Reason';
+import Portfolio from './componets/portfolio/Portfolio';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div>
+      <header>
+        <Navbar />
+        <Header />
+        <Reason />
+        <Portfolio />
       </header>
     </div>
   );

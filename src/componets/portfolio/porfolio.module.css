@@ -1,0 +1,153 @@
+.contener {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  
+  .portfolio {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  .portfoliotext h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .portfoliotext p {
+    font-size: 1.1rem;
+    color: #555;
+  }
+  
+  /* контейнер слайдера */
+  .clader {
+    width: 500px;
+    position: relative;
+    overflow: visible; /* стрелки могут торчать наружу */
+  }
+  
+  /* ВАЖНО: сам .swiper должен скрывать лишние слайды */
+  .clader :global(.swiper) {
+    overflow: hidden; /* предотвращаем "вылазание" всех картинок */
+  }
+  
+  /* картинка внутри слайда */
+  .clader img {
+    width: 100%;
+    display: block;
+    border-radius: 12px;
+  }
+  
+  /* стили стрелок (глобальные селекторы через CSS Modules) */
+  .clader :global(.swiper-button-prev),
+  .clader :global(.swiper-button-next) {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 46px;
+    height: 46px;
+    background: #fff;
+    border-radius: 50%;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 40;
+  }
+  
+  /* отступы — регулируй под свой макет */
+  .clader :global(.swiper-button-prev) {
+    left:5px;
+    margin-top: 10px;
+  }
+  
+  .clader :global(.swiper-button-next) {
+    margin-top: 10px;
+    right: px;
+  }
+  
+  /* вид стрелок (иконки внутри ::after) */
+  .clader :global(.swiper-button-prev::after),
+  .clader :global(.swiper-button-next::after) {
+    font-size: 18px;
+    color: #000;
+  }
+  
+  /* отключённое состояние */
+  .clader :global(.swiper-button-disabled) {
+    opacity: 0.35;
+    pointer-events: none;
+  }
+  
+  /* сброс отступов в заголовках */
+  h2, p {
+    margin: 0;
+  }
+
+  .portfoliotext h2 {
+    font-size: 45px;
+
+  }
+  
+  
+  .portfoltext {
+    font-family: Ruberoid;
+    font-weight: 400;
+    font-style: Bold;
+    color: rgba(46, 236, 197, 1);
+    line-height: 111.01%;
+    filter: drop-shadow(0 0 10px rgba(46, 236, 197, 1))
+    drop-shadow(0 0 20px rgba(46, 236, 197, 0.8))
+    drop-shadow(0 0 40px rgba(46, 236, 197, 0.6));
+    
+  }
+
+  .portfoliotext {
+    font-size: 25px;
+  }
+
+  .portfoltexttwo {
+    width: 450px;
+    height: 55px;
+    font-family: Ruberoid;
+    font-weight: 400;
+    font-style: Medium;
+    color: rgba(255, 255, 255, 0.65);
+    line-height: 154%;
+  }
+
+
+
+
+.buttonMore {
+    width: 220px;
+    height: 40px;
+    background-color: rgba(46, 236, 197, 0.1);
+    box-shadow: 0 0 10px #0ff,
+    0 0 20px #0ff,
+    0 0 40px #0ff;    
+    border-radius: 49px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    cursor: pointer;
+
+}
+
+.buttonName {
+    width: 200px;
+    height: 30px;
+    background: none;   /* убираем фон */
+    border: none;       /* убираем рамку */
+    font-family: Ruberoid;
+    font-weight: 400;
+    font-size: 19px;
+    font-style: Semi Bold;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+}

@@ -1,0 +1,79 @@
+.contener {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.logo {
+    width: 96.19px;
+    height: 68.24px;
+}
+.img {
+    display: flex;
+    justify-content: start;
+}
+
+.header {
+    display:flex;
+    justify-content: space-evenly;
+    width: auto;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.navigate {
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-evenly;
+    width: 600px;
+    height: 22px;
+    align-items: center;
+}
+
+.navigate a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: Ruberoid;
+    font-style: Semi Bold;
+    font-size: 20px;
+    font-weight: 400;
+
+}
+
+.button {
+    width: 183px;
+    height: 58px;
+    background-color: rgba(46, 236, 197, 0.1);
+    box-shadow: 0 0 10px #0ff,
+    0 0 20px #0ff,
+    0 0 40px #0ff;    
+    border-radius: 49px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.buttonname {
+    width: 97px;
+    height: 21px;
+    background: none;   /* убираем фон */
+    border: none;       /* убираем рамку */
+    font-family: Ruberoid;
+    font-weight: 400;
+    font-size: 20px;
+    font-style: Semi Bold;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.navbut {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 700px;
+}
