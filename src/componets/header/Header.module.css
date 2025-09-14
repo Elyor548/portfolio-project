@@ -14,9 +14,13 @@
     letter-spacing: 0%;
     margin: 0;
     padding-top: 140px;
-    filter: drop-shadow(0 0 10px rgba(46, 236, 197, 1))
-    drop-shadow(0 0 20px rgba(46, 236, 197, 0.8))
-    drop-shadow(0 0 40px rgba(46, 236, 197, 0.6));
+    background: linear-gradient(91.2deg, #B5FEEF 10.31%, #2EECC5 165.09%);
+    text-shadow: 0px 0px 36px rgba(165, 252, 235, 0.2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+
 }
 
 .titleSecond {
@@ -30,17 +34,19 @@
     line-height: 100%;
     letter-spacing: 0%;
     margin: 0;
-    text-shadow: 
-    0 0 10px rgba(46, 236, 197, 1),
-    0 0 20px rgba(46, 236, 197, 1),
-    0 0 40px rgba(46, 236, 197, 1);
+    background: linear-gradient(91.2deg, #B5FEEF 10.31%, #2EECC5 165.09%);
+    text-shadow: 0px 0px 36px rgba(165, 252, 235, 0.2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+
 }
 
 
 .headerTwo {
     display: flex;
     justify-content: space-evenly;
-    gap: 50px;
     padding-top: 120px;
 }
 
@@ -48,6 +54,8 @@
 
 .men {
     width: 450px;
+    /* overflow: hidden; */
+    position: relative;
 }
 
 .WeStudy {

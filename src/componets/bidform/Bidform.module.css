@@ -1,0 +1,143 @@
+.contener {
+    margin-top: 200px;
+    background-color: rgba(49, 49, 52, 1);
+    height: 460px;
+    border: 1px;
+    background: linear-gradient(90deg,rgba(49, 49, 52, 1) 0%, rgba(34, 34, 36, 1) 26%, rgba(18, 71, 60, 1) 61%, rgba(41, 41, 41, 1) 100%);
+    /* overflow: hidden; */
+} 
+
+    
+
+.titleColor {
+    width: 500px;
+    font-size: 40px;
+    font-family: Ruberoid;
+    font-weight: 400;
+    font-style: Bold;
+    color: rgba(46, 236, 197, 1);
+    line-height: 111.01%;
+    /* градиент для текста */
+    background: linear-gradient(91.2deg, #B5FEEF 10.31%, #2EECC5 165.09%);
+    text-shadow: 0px 0px 36px rgba(165, 252, 235, 0.2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    padding-top: 40px;
+    position: relative;
+    bottom: 40px;
+}
+
+.laberInput {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+
+}
+
+.firstLabel {
+    font-size: 17px;
+    font-family: Ruberoid;
+    font-weight: 400;
+    font-style: Medium;
+    color: rgba(255, 255, 255, 0.7);
+    line-height: 154%;
+    margin-bottom: 6px;
+    margin-left: 7px;
+
+}
+
+.firstInput {
+    width: 437px;
+    height: 52px;
+    border-radius: 41px;
+    border:  1.5px solid  rgba(255, 255, 255, 0.2) ;
+    box-shadow: 0px 0px 38px 0px rgba(255, 255, 255, 0.05);
+    color: white;
+    background: rgba(255, 255, 255, 0.05); /* прозрачный темный фон */
+    font-size: 20px;
+}
+
+.firstInput:focus {
+    border-color: rgba(46, 236, 197, 1);
+    box-shadow: 0px 0px 38px 0px rgba(46, 236, 197, 0.3);
+    outline: none;
+}
+
+.kindInput {
+margin-top: 20px;
+
+}
+
+.kindtwoInput {
+    margin-top: 20px;
+    position: relative;
+    top: 85px;
+
+}
+
+.chiefInpur {
+    /* display: flex;
+    justify-content: space-around;
+    gap: 50px; */
+    display: grid;
+    grid-template-columns: minmax(500px , 500px) minmax(440px , 500px) minmax(420px , 530px);
+    justify-content: start;
+    position: relative;
+    left: 50px;
+    width: 95%;
+}
+
+.firstInput[type="number"]::-webkit-inner-spin-button,
+.firstInput[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.imgPhone {
+    position: relative;
+    bottom: 28px;
+    width: auto;
+    height: 530px;
+}
+
+.gridcon {
+    display: grid;
+}
+
+
+.buttonColor {
+    width: 130px;
+    height: 40px;
+    background-color: rgba(46, 236, 197, 0.1);
+    box-shadow: 0 0 10px #0ff,
+    0 0 20px #0ff,
+    0 0 40px #0ff;    
+    border-radius: 49px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+    top: 40px;
+} 
+
+
+.buttonName {
+    width: 80px;
+    height: 19px;
+    background: none;   
+    border: none;       
+    font-family: Ruberoid;
+    font-weight: 400;
+    font-size: 19px;
+    font-style: Semi Bold;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+

@@ -5,6 +5,7 @@ import Header from './componets/header/Header';
 import Reason from './componets/reason/Reason';
 import Portfolio from './componets/portfolio/Portfolio';
 import Tarif from './componets/tarif/Tarif';
+import Bidform from './componets/bidform/Bidform';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Reason />
         <Portfolio />
         <Tarif />
+        <Bidform />
       </header>
     </div>
   );
