@@ -4,6 +4,7 @@ import Navbar from'/Users/macbookpro/Desktop/react7/my-app/src/componets/nav /Na
 import Header from './componets/header/Header';
 import Reason from './componets/reason/Reason';
 import Portfolio from './componets/portfolio/Portfolio';
+import Tarif from './componets/tarif/Tarif';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Header />
         <Reason />
         <Portfolio />
+        <Tarif />
       </header>
     </div>
   );

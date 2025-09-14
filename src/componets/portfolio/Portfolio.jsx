@@ -11,27 +11,46 @@ export default function Portfolio() {
       <div className={s.portfolio}>
         <div className={s.portfoliotext}>
           <h2 className={s.portfoltext}>Наше портфолио</h2>
-          <p className={s.portfoltexttwo}>В данном портфолио вы сможете увидеть кейсы наших работ на 2022 - 2023 год</p>
+          <p className={s.portfoltexttwo}>
+            В данном портфолио вы сможете увидеть кейсы наших работ на 2022 -
+            2023 год
+          </p>
           <div className={s.buttonMore}>
-                          <button className={s.buttonName}>Компьютерные версии </button>
-                        </div>
+            <button className={s.buttonName}>Компьютерные версии </button>
+          </div>
         </div>
 
         <div className={s.clader}>
           <Swiper
             modules={[Navigation]}
             spaceBetween={20}
-            slidesPerView={1}     // 1 целый + часть следующего
-            centeredSlides={false}  // чтобы слайд был прижат вправо (у тебя справа карусель)
+            slidesPerView={1} // 1 целый + часть следующего
+            centeredSlides={false} // чтобы слайд был прижат вправо (у тебя справа карусель)
             navigation
             loop={false}
-            watchOverflow={false}   // принудительно показываем кнопки
+            watchOverflow={false} // принудительно показываем кнопки
           >
-            <SwiperSlide><img src="./firstportfolio.svg" alt="1" /></SwiperSlide>
-            <SwiperSlide><img src="./secondportfolio.svg" alt="2" /></SwiperSlide>
-            <SwiperSlide><img src="./third.svg" alt="3" /></SwiperSlide>
-            <SwiperSlide><img src="./fourds.svg" alt="4" /></SwiperSlide>
-            <SwiperSlide><img src="./fifth.svg" alt="5" /></SwiperSlide>
+            <SwiperSlide>
+              <img
+                src={`${process.env.PUBLIC_URL}/firstportfolio.svg`}
+                alt="1"
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img
+                src={`${process.env.PUBLIC_URL}/secondportfolio.svg`}
+                alt="2"
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src={`${process.env.PUBLIC_URL}/third.svg`} alt="3" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src={`${process.env.PUBLIC_URL}/fourds.svg`} alt="4" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src={`${process.env.PUBLIC_URL}/fifth.svg`} alt="5" />
+            </SwiperSlide>
           </Swiper>
         </div>
       </div>

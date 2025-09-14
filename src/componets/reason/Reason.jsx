@@ -17,15 +17,15 @@ function Reason() {
                     </button>
                 </div>
                 </div>
-                <img src="goodprice.svg" alt="" />
-            </div>
-            <div className={s.threeFacts}>
-                <img src="./intime.svg" alt="" />
-                <img className={s.first} src="./goodteam.svg" alt="" />
-                <img className={s.second} src="./staff.svg" alt="" />
+                <img src={`${process.env.PUBLIC_URL}/goodprice.svg`} alt="good price" />
+                </div>
+                <div className={s.threeFacts}>
+                <img src={`${process.env.PUBLIC_URL}/intime.svg`} alt="intime" />
+                <img className={s.first} src={`${process.env.PUBLIC_URL}/goodteam.svg`} alt="good team" />
+                <img className={s.second} src={`${process.env.PUBLIC_URL}/staff.svg`} alt="staff" />
             </div>
         </div>
     )
 }
 
-export default Reason
+export default Reason;
