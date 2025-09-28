@@ -1,0 +1,156 @@
+
+.contener {
+    margin-top: 70px;
+}
+
+.title {
+    font-family: Ruberoid;
+    font-weight: 400;
+    font-style: Bold;
+    font-size: 70px;
+    line-height: 100%;
+    letter-spacing: 2%;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    }
+/* 
+.imgFooter {
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+}
+ */
+
+
+.card {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+
+ .imgFooter {
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    transition: filter 0.4s ease; /* плавный переход */
+    z-index: 1;
+    position: relative;
+  }
+  
+  /* При наведении иконка перекрашивается */
+  .cardOne:hover .imgFooter {
+    filter: brightness(0) saturate(100%) invert(65%) sepia(85%) saturate(300%) hue-rotate(120deg);
+    transform: scale(1.1); /* увеличиваем на 10% */
+
+}
+  
+
+
+  .cardOne {
+    width: 100px;
+    height: 100px;
+    position: relative;
+
+  }
+
+  .imgFooter2 {
+    position: relative;
+    bottom: 72.5px;
+    left: 25px;
+    z-index: 2; 
+    pointer-events: none; /* курсор проходит сквозь них */
+    transition: transform 0.3s ease; /* можно тоже анимировать */
+
+  }
+  
+
+  .imgFooter3 {
+    position: relative;
+    bottom: 66px;
+    left: 29px;
+    width: 40px;
+    height: 25px;
+    z-index: 2; 
+    pointer-events: none; /* курсор проходит сквозь них */
+    transition: transform 0.3s ease; /* можно тоже анимировать */
+
+  }
+
+  .imgFooter4 {
+    position: relative;
+    bottom: 75px;
+    left: 27.9px;
+    width: 43px;
+
+    height: 40px;
+    z-index: 2; 
+    pointer-events: none; /* курсор проходит сквозь них */
+    transition: transform 0.3s ease; /* можно тоже анимировать */
+
+  }
+  
+  .imgFooter5 {
+    position: relative;
+    bottom: 75px;
+    left: 27.9px;
+    width: 43px;
+    height: 40px;
+    z-index: 2; 
+    pointer-events: none; /* курсор проходит сквозь них */
+    transition: transform 0.3s ease; /* можно тоже анимировать */
+
+  }
+  
+  .imgFooter6{
+    position: relative;
+    bottom: 74px;
+    left: 27.9px;
+    width: 43px;
+    height: 40px;
+    z-index: 2; 
+    pointer-events: none; /* курсор проходит сквозь них */
+    transition: transform 0.3s ease; /* можно тоже анимировать */
+
+  }
+
+
+  .cardOne:hover .imgFooter2,
+.cardOne:hover .imgFooter3,
+.cardOne:hover .imgFooter4,
+.cardOne:hover .imgFooter5,
+.cardOne:hover .imgFooter6 {
+  transform: scale(1.1);
+}
+
+
+  
+.endFirst {
+font-family: Ruberoid;
+font-weight: 400;
+font-style: Regular;
+font-size: 15px;
+line-height: 106%;
+letter-spacing: 0%;
+color: rgba(255, 255, 255, 0.7);
+text-align: center;
+
+
+}
+
+.endSecond {
+font-family: Ruberoid;
+font-weight: 400;
+font-style: Regular;
+font-size: 13px;
+line-height: 106%;
+letter-spacing: 0%;
+text-align: center;
+color: rgba(255, 255, 255, 0.4);
+
+}
+
+.end {
+    margin-top: 60px;
+}
