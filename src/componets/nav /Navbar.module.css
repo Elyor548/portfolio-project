@@ -1,4 +1,7 @@
-.contener {
+
+@media (min-width: 1300px ) {
+
+    .contener {
     padding-left: 50px;
     padding-right: 50px;
 }
@@ -76,4 +79,98 @@
     justify-content: space-between;
     align-items: center;
     width: 700px;
+}
+
+}
+
+
+@media (min-width: 768px ) and (max-width: 1300px ){ 
+
+    /* .contener {
+        padding-left: 50px;
+        padding-right: 50px;
+    } */
+     .logo {
+        width: 80.19px;
+        height: 60.24px;
+    }
+
+
+    .header {
+        display:flex;
+        justify-content: space-evenly;
+        width: auto;
+        align-items: center;
+        padding-top: 50px;
+    }
+    
+    .navigate {
+        list-style: none;
+        text-decoration: none;
+        display: flex;
+        justify-content: space-around;
+        min-width: 370px;
+        max-width: 500px;
+        height: 22px;
+        align-items: center;
+        position: relative;
+        right: 10px;
+    }
+    .navigate a{
+        text-decoration: none;
+        color: #FFFFFF;
+        font-family: Ruberoid;
+        font-style: Semi Bold;
+        font-size: 17px;
+        font-weight: 400;
+    
+    }
+    
+    .button {
+        width: 150px;
+        height: 45px;
+        background-color: rgba(46, 236, 197, 0.1);
+        box-shadow: 0 0 10px #0ff,
+        0 0 20px #0ff,
+        0 0 40px #0ff;    
+        border-radius: 44px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    
+    }
+    
+    .buttonname {
+        width: 80px;
+        height: 21px;
+        background: none;   
+        border: none;       
+        font-family: Ruberoid;
+        font-weight: 400;
+        font-size: 17px;
+        font-style: Semi Bold;
+        color: #FFFFFF;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    
+    }
+    
+    .navbut {
+        display: flex;
+        gap: 30px;
+        align-items: center;
+    }
+    /*
+    .img {
+        display: flex;
+        justify-content: start;
+    }
+    
+    
+ */
+
+
 }

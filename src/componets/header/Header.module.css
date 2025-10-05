@@ -1,3 +1,6 @@
+
+@media (min-width: 1300px ) { 
+
 .contener {
     padding-left: 50px;
     padding-right: 50px;
@@ -53,7 +56,7 @@
 
 
 .men {
-    width: 450px;
+    width: 400px;
     /* overflow: hidden; */
     position: relative;
 }
@@ -125,3 +128,144 @@
     justify-content: space-between;
     align-items: center;
 }
+}
+
+
+
+@media (min-width: 768px ) and (max-width: 1300px ){  
+
+
+    .titleFirst {
+        width: 350px;
+        height: 40px;
+        color: rgba(46, 236, 197, 1);
+        font-family: Ruberoid;
+        font-style: Extra Bold;
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 100%;
+        letter-spacing: 0%;
+        margin: 0;
+        padding-top: 130px;
+        background: linear-gradient(91.2deg, #B5FEEF 10.31%, #2EECC5 165.09%);
+        text-shadow: 0px 0px 36px rgba(165, 252, 235, 0.2);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        color: transparent;
+    
+    }
+    
+    .titleSecond {
+        width: 300px;
+        height: 45px;
+        color: rgba(46, 236, 197, 1);
+        font-family: Ruberoid;
+        font-style: Extra Bold;
+        font-size: 23px;
+        font-weight: 400;
+        line-height: 100%;
+        letter-spacing: 0%;
+        margin: 0;
+        background: linear-gradient(91.2deg, #B5FEEF 10.31%, #2EECC5 165.09%);
+        text-shadow: 0px 0px 36px rgba(165, 252, 235, 0.2);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        color: transparent;
+    
+    }
+    .headerTwo {
+        display: flex;
+        justify-content: space-evenly;
+        padding-top: 120px;
+    }
+    
+    .men {
+        width: 350px;
+        position: relative;
+    }
+    
+    .WeStudy {
+        margin: 0;
+        width: 350px;
+        height: 45px;
+        color: rgba(255, 255, 255, 0.65);
+        font-family: Ruberoid;
+        font-style: Medium;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 100%;
+        letter-spacing: 0%;
+    }
+    
+    .buttonMore {
+        width: 120px;
+        height: 37px;
+        background-color: rgba(46, 236, 197, 0.1);
+        box-shadow: 0 0 10px #0ff,
+        0 0 20px #0ff,
+        0 0 40px #0ff;    
+        border-radius: 49px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 15px;
+        cursor: pointer;
+    
+    }
+    .buttonName {
+        width: 60px;
+        height: 17px;
+        background: none; 
+        border: none;      
+        font-family: Ruberoid;
+        font-weight: 400;
+        font-size: 16.5px;
+        font-style: Semi Bold;
+        color: #FFFFFF;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    
+    }
+    
+    .quation {
+        font-family: Ruberoid;
+        font-weight: 400;
+        font-size: 18px;
+        color: rgba(255, 255, 255, 0.9);
+        background: transparent;   
+        border: none;              
+        outline: none;             
+        margin-top: 15px;
+        position: relative;
+        left: 15px;
+        
+    }
+    .quationButton {
+        width: 320px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 20px;
+    } 
+    
+    /* .contener {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    */
+    
+    
+    
+    
+
+
+
+
+
+
+}
+

@@ -1,3 +1,6 @@
+@media (min-width: 1300px ) { 
+
+
 .contener {
     padding-left: 50px;
     padding-right: 50px;
@@ -121,4 +124,122 @@
 .second {
     position: relative; 
     right: 50px;
+}
+
+}
+
+
+@media (min-width: 768px ) and (max-width: 1300px ){  
+    .contener {
+        /* padding-left: 50px; */
+        /* padding-right: 50px; */
+        padding-top: 100px;
+    }
+    
+    .reasonWork {
+        width: 320px;
+        height: 70px;
+        color: rgba(46, 236, 197, 1);
+        font-family: Ruberoid;
+        font-style: Extra Bold;
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 100%;
+        letter-spacing: 0%;
+        margin: 0;
+        background: linear-gradient(91.2deg, #B5FEEF 10.31%, #2EECC5 165.09%);
+        text-shadow: 0px 0px 36px rgba(165, 252, 235, 0.2);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        color: transparent;
+    
+    }
+    
+    .reasonWorkSmall {
+        margin: 0;
+        width: 320px;
+        height: 45px;
+        color: rgba(255, 255, 255, 0.65);
+        font-family: Ruberoid;
+        font-style: Medium;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 100%;
+        letter-spacing: 0%;
+    }
+    
+    .reasonWorkSmaller {
+        margin: 0;
+        width: 320px;
+        height: 45px;
+        color: rgba(255, 255, 255, 0.65);
+        font-family: Ruberoid;
+        font-style: Medium;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 100%;
+        letter-spacing: 0%;
+    }
+    
+    .reason {
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .reason img {
+        position: relative;
+        bottom: 65px;
+        width: 300px;
+        height: 300px;
+    }
+    
+    .nameButton {
+        width: 120px;
+        height: 40px;
+        background-color: rgba(46, 236, 197, 0.1);
+        box-shadow: 0 0 10px #0ff,
+        0 0 20px #0ff,
+        0 0 40px #0ff;    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 4px;
+        border: 1.5px;
+        margin-top: 20px;
+        cursor: pointer;
+    }
+    
+    .ButtonPortfolio {
+        width: 100px;
+        height: 26px;
+        background: none;   
+        border: none;      
+        font-family: Ruberoid;
+        font-weight: 400;
+        font-size: 17px;
+        font-style: Semi Bold;
+        color: #FFFFFF;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    
+    }
+    
+    .threeFacts img {
+        width: 230px;
+        height: 240px;    
+        position: relative;
+        bottom: 50px;
+    }
+    .threeFacts {
+        display: flex;
+        justify-content: center;
+        gap: 3%;
+    }
+    
+    
+    
+
 }

@@ -6,7 +6,7 @@ import Reason from './componets/reason/Reason';
 import Portfolio from './componets/portfolio/Portfolio';
 import Tarif from './componets/tarif/Tarif';
 import Bidform from './componets/bidform/Bidform';
-import Footer from './footer/Footer';
+import Footer from './componets/footer/Footer';
 
 function App() {
   return (
@@ -15,10 +15,10 @@ function App() {
         <Navbar />
         <Header />
         <Reason />
-        <Portfolio />
+        {/* <Portfolio />
         <Tarif />
         <Bidform />
-        <Footer />
+        <Footer /> */}
       </header>
     </div>
   );
