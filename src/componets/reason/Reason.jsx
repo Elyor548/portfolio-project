@@ -20,7 +20,7 @@ function Reason() {
                 <img src={`${process.env.PUBLIC_URL}/goodprice.svg`} alt="good price" />
                 </div>
                 <div className={s.threeFacts}>
-                <img src={`${process.env.PUBLIC_URL}/intime.svg`} alt="intime" />
+                <img className={s.first1} src={`${process.env.PUBLIC_URL}/intime.svg`} alt="intime" />
                 <img className={s.first} src={`${process.env.PUBLIC_URL}/goodteam.svg`} alt="good team" />
                 <img className={s.second} src={`${process.env.PUBLIC_URL}/staff.svg`} alt="staff" />
             </div>

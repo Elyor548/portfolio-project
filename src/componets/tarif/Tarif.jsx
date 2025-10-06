@@ -148,7 +148,7 @@ function Tarif() {
           initialSlide={1} // теперь точно второй слайд
           loop={false} // отключаем бесконечность
           navigation
-          spaceBetween={-450}
+          spaceBetween={-300}
           coverflowEffect={{
             rotate: 0, // поворот слайдов
             stretch: 0, // расстояние между слайдами

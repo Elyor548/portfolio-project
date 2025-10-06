@@ -1,9 +1,9 @@
-@media (min-width: 1300px ) { 
+@media (min-width: 1200px ) { 
 
 
 .contener {
-    padding-left: 50px;
-    padding-right: 50px;
+    /* padding-left: 50px;
+    padding-right: 50px; */
     padding-top: 100px;
 }
 
@@ -63,6 +63,7 @@
     bottom: 120px;
     width: 450px;
     height: 450px;
+    left: 30px;
 }
 
 .nameButton {
@@ -109,7 +110,6 @@
 .threeFacts {
     display: flex;
     justify-content: space-evenly;
-    padding-right: 50px;
 }
 
 .re {
@@ -129,7 +129,7 @@
 }
 
 
-@media (min-width: 768px ) and (max-width: 1300px ){  
+@media (min-width: 768px ) and (max-width: 1199px ){  
     .contener {
         /* padding-left: 50px; */
         /* padding-right: 50px; */
@@ -168,6 +168,10 @@
         line-height: 100%;
         letter-spacing: 0%;
     }
+
+    .re {
+        height: 300px;
+    }
     
     .reasonWorkSmaller {
         margin: 0;
@@ -184,14 +188,14 @@
     
     .reason {
         display: flex;
-        justify-content: space-around;
+        justify-content: space-evenly;
     }
     
     .reason img {
         position: relative;
         bottom: 65px;
-        width: 300px;
-        height: 300px;
+        width: 400px;
+        height: 400px;
     }
     
     .nameButton {
@@ -228,18 +232,32 @@
     }
     
     .threeFacts img {
-        width: 230px;
-        height: 240px;    
+        width: 270px;
+        height: 270px;    
         position: relative;
-        bottom: 50px;
+        bottom: 120px;
     }
     .threeFacts {
         display: flex;
-        justify-content: center;
-        gap: 3%;
+        justify-content: space-evenly;
+        min-width: 768px;
+        max-width: 1990px;
     }
     
+    .first1 {
+        position: relative;
+        left: 20px;
+    } 
     
+  
+    .first {
+        position: relative;
+        right: 50px;
+    } 
     
+    .second {
+        position: relative;
+        right: 120px;
+    }
 
 }

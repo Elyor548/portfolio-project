@@ -1,3 +1,6 @@
+@media (min-width: 1200px ) { 
+
+ 
  .container {
     padding-left: 50px;
     padding-right: 50px;
@@ -144,7 +147,6 @@
   .prev::after,
   .next::after {
     font-size: 20px;
-    color: #fff;
   }
   
 
@@ -166,12 +168,14 @@
     width: 40px;
     height: 40px;
     border-radius: 50%;
+    color: rgba(44, 142, 122, 1);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+    border:1.5px solid rgba(44, 142, 122, 1)
   }
   
   :global(.swiper-button-next::after),
   :global(.swiper-button-prev::after) {
     font-size: 20px;
-    color: #fff;
   }
   
   :global(.swiper-slide-shadow-left),
@@ -200,18 +204,244 @@
     transform: translateY(-50%); /* чтобы центр точно совпадал */
   }
   
-  :global(.swiper-button-prev) {
-    left:400; /* слева у слайда */
-  }
-  
-  :global(.swiper-button-next) {
-    right: 400; /* справа у слайда */
-  }
+
   
   .sliderWrapper {
     width: 800px;
     margin: 0 auto;
   }
+
+}
+
+
+@media (min-width: 768px ) and (max-width: 1199px ){  
+
+
+  .container {
+    /* padding-left: 50px;
+    padding-right: 50px; */
+    padding-top: 150px;
+}
+
+.title {
+    font-size: 35px;
+    font-family: Ruberoid;
+    font-weight: 400;
+    font-style: Bold;
+    color: rgba(46, 236, 197, 1);
+    line-height: 111.01%;
+    background: linear-gradient(91.2deg, #B5FEEF 10.31%, #2EECC5 165.09%);
+    text-shadow: 0px 0px 36px rgba(165, 252, 235, 0.2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.firstWripper {
+    width: 350px;
+    height: 430px;
+    border-radius: 37px;
+    border: 1px;
+    background-color: rgba(49, 49, 52, 1);
+    
+}
+
+.titleFirst {
+    font-size: 22px;
+    font-family: Ruberoid;
+    font-weight: 400;
+    font-style: Bold;
+    color: rgba(255, 255, 255, 1);
+    line-height: 100%;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.textWripper {
+    width: 290px;
+    height: 250px;
+    font-size: 17px;
+    font-family: Ruberoid;
+    font-weight: 400;
+    font-style: Medium;
+    color: rgba(255, 255, 255, 1);
+    line-height: 154%;
+    text-align: center;
+    padding: 30px 30px 0px 30px;
+
+}
+
+
+.price {
+    width: 120px;
+    height: 26px;
+    font-size: 18px;
+    font-family: Ruberoid;
+    font-weight: 400;
+    font-style: Bold;
+    color: rgba(255, 255, 255, 1);
+    line-height: 154%;
+    letter-spacing: 0%;
+}
+
+.time {
+    width: 98px;
+    height: 26px;
+    font-size: 16px;
+    font-family: Ruberoid;
+    font-weight: 400;
+    font-style: Medium;
+    color: rgba(255, 255, 255, 0.4);
+    line-height: 154%;
+    letter-spacing: 0%;
+}
+
+.PriceOftime {
+    display: flex;
+    justify-content: space-around;
+}
+
+.buttonName {
+    width: 120px;
+    height: 40px;
+    background-color: rgba(46, 236, 197, 0.1);
+    box-shadow: 0 0 10px #0ff,
+    0 0 20px #0ff,
+    0 0 40px #0ff;    
+    border-radius: 49px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.buttomText {
+    width: 80px;
+    height: 19px;
+    background: none;   
+    border: none;       
+    font-family: Ruberoid;
+    font-weight: 400;
+    font-size: 17px;
+    font-style: Semi Bold;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+
+
+
+.sliderArrows {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 20px; /* стрелки под слайдером */
+  }
+  
+  .prev,
+  .next {
+    width: 40px;
+    height: 40px;
+    background: rgba(46, 236, 197, 0.8);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+
+
+/* Глобальные стили Swiper */
+:global(.swiper) {
+    padding-bottom: 50px; /* чтобы стрелки/пагинация не перекрывали слайды */
+  }
+  
+  :global(.swiper-slide) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  :global(.swiper-button-next),
+  :global(.swiper-button-prev) {
+    color: #2eccc5;
+    background: rgba(0,0,0,0.2);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  
+  :global(.swiper-button-next::after),
+  :global(.swiper-button-prev::after) {
+    font-size: 20px;
+  }
+  
+  :global(.swiper-slide-shadow-left),
+  :global(.swiper-slide-shadow-right) {
+    display: none; /* отключаем стандартные тени */
+  }
+
+
+
+
+
+  :global(.swiper) {
+    position: relative; /* нужно, чтобы стрелки позиционировать относительно слайдера */
+    padding: 50px 0; /* чтобы сверху и снизу не слипалось */
+  }
+  
+  /* сами стрелки */
+  :global(.swiper-button-prev),
+  :global(.swiper-button-next) {
+    color: #2eccc5;
+    background: rgba(25, 32, 31, 1);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    top: 50%; /* по вертикали центрируем */
+    transform: translateY(-50%); /* чтобы центр точно совпадал */
+    font-size: 18px;
+    color: rgba(44, 142, 122, 1);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+    border:1.5px solid rgba(44, 142, 122, 1)
+
+    
+  }
+
+  .clader :global(.swiper-button-prev::after),
+  .clader :global(.swiper-button-next::after) {
+    font-size: 18px;
+    color: rgba(44, 142, 122, 1);
+  }
+  
+  
+
+  
+  .sliderWrapper {
+    width: 650px;
+    margin: 0 auto;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+}
 /* 
 
  .container {
