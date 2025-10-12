@@ -81,6 +81,10 @@
     width: 700px;
 }
 
+.navForPhone {
+    display: none;
+}
+
 }
 
 
@@ -95,6 +99,9 @@
         height: 60.24px;
     }
 
+    .navForPhone {
+        display: none;
+    }
 
     .header {
         display:flex;
@@ -172,5 +179,122 @@
     
  */
 
+
+}
+
+
+@media (min-width: 360px ) and (max-width: 480px ){ 
+    .contener {
+        padding-top: 50px;
+    }
+    .logo {
+        width: 69px;
+        height: 47px;
+        position: relative;
+        right: 30px;
+    }
+
+    .navbut {
+        display: none;
+    }
+
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .burger {
+        position: relative; 
+        left: 30px;
+        background: none;
+        background: linear-gradient(139.93deg, #2EE9C3 -1.69%, #36A48E 62.63%, #3A786C 117.78%);
+        -webkit-background-clip: text; 
+        -webkit-text-fill-color: transparent;
+        font-weight: bold; 
+        font-size: 48px;
+        border: 0;
+        color: #3A796D;
+        height: 50px;
+        bottom:17px;
+    }
+
+
+
+    .mobileMenu {
+        position: fixed;         /* занимает всё окно */
+        top: 0;
+        left: 5%;
+        width: 90%;            /* вся ширина */
+        height: 340px;           /* вся высота */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        z-index: 100;
+        background: linear-gradient(132.64deg, #161919 2.37%, #373A3A 100.31%);
+        padding-top: 35px;
+    }
+
+    .mobileMenu a {
+        font-family: Ruberoid;
+        font-weight: 400;
+        font-style: Bold;
+        font-size: 20px;
+        line-height: 118%;
+        letter-spacing: 0%;
+        color: rgba(46, 236, 197, 1);
+        text-decoration: none;
+    }
+
+     li  {
+        list-style: none;
+        width: 100%;
+
+    }
+
+    ul {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        
+    }
+
+    .firstLi {
+        margin-top: 30px;
+    }
+
+
+    .closeBtn {
+        /* background: linear-gradient(147.14deg, #2EECC5 8.04%, #3A796D 80.38%); */
+        color: #3A796D;
+        border: 0px;
+        /* box-shadow: 0px 0px 21px 0px rgba(53, 166, 144, 0.5); */
+        font-size: 40px;
+        background: none;
+        background: linear-gradient(139.93deg, #2EE9C3 -1.69%, #36A48E 62.63%, #3A786C 117.78%);
+        -webkit-background-clip: text; 
+        -webkit-text-fill-color: transparent;
+        font-weight: bold; 
+        position: fixed;
+        left: 40px;
+        top: 45px;
+
+    }
+
+    li a:hover {
+        background: linear-gradient(90.18deg, #30DBB8 -17.89%, #37A58F 24.63%, #398778 99.91%);
+    }
+
+
+    .mobileMenu li a {
+        display: block;
+        width: 100%;
+        text-decoration: none;
+        color: rgba(46, 236, 197, 1);
+        transition: background 0.3s;
+        padding: 12px 0;
+      }
 
 }

@@ -12,13 +12,32 @@ function App() {
   return (
     <div>
       <header>
+      <div id="navbar">
         <Navbar />
+      </div>
+        {/* <div id="header">
         <Header />
+        </div>
+
+        <div id="reason">
         <Reason />
+        </div>
+        <div id="portfolio">
         <Portfolio />
+        </div>
+        <div id="tarif">
         <Tarif />
+        </div>
+        <div id="bidform">
         <Bidform />
+        </div>
+        <div id="footer">
         <Footer /> 
+        </div> */}
+        
+
+
+        
       </header>
     </div>
   );
