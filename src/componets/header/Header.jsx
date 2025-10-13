@@ -13,6 +13,9 @@ function Header() {
               Мы - студия web-разработки, работаем уже более 3-х лет, готовы
               разработать для вас сайт в кротчайшие сроки.
             </h3>
+            <h3 className={s.weStudySmall}>
+            Мы web-студия которая работает уже больше 3-х лет
+            </h3>
           </div>
           <div className={s.quationButton}>
             <div className={s.buttonMore}>
@@ -29,6 +32,19 @@ function Header() {
           src={`${process.env.PUBLIC_URL}/men.svg`}
           alt=""
         />
+        <img
+          className={s.men2}
+          src={`${process.env.PUBLIC_URL}/menSmall.svg`}
+          alt=""
+        />
+      </div>
+      <div className={s.buttonFormobile}>
+        <div className={s.firstButton}>
+            <button className={s.firstButtonName}>Работаем в сфере web-разработки более 3-х лет</button>
+        </div>
+        <div className={s.secondButton}>
+            <button className={s.firstButtonName}>В нашей команде находятся лучшие исполнители</button>
+        </div>
       </div>
     </div>
   );

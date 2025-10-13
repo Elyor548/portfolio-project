@@ -15,10 +15,10 @@ function App() {
       <div id="navbar">
         <Navbar />
       </div>
-        {/* <div id="header">
+        <div id="header">
         <Header />
         </div>
-
+{/* 
         <div id="reason">
         <Reason />
         </div>
