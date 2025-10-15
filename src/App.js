@@ -18,7 +18,6 @@ function App() {
         <div id="header">
         <Header />
         </div>
-{/* 
         <div id="reason">
         <Reason />
         </div>
@@ -28,6 +27,7 @@ function App() {
         <div id="tarif">
         <Tarif />
         </div>
+{/* 
         <div id="bidform">
         <Bidform />
         </div>

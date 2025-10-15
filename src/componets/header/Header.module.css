@@ -6,7 +6,7 @@
     padding-right: 50px;
 } */
 .titleFirst {
-    width: 500px;
+    width: auto;
     height: 50px;
     color: rgba(46, 236, 197, 1);
     font-family: Ruberoid;
@@ -49,7 +49,7 @@
 
 .headerTwo {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     padding-top: 120px;
 }
 
