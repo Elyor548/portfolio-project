@@ -191,7 +191,7 @@
         width: 69px;
         height: 47px;
         position: relative;
-        right: 30px;
+        right: 40px;
     }
 
     .navbut {
@@ -224,8 +224,7 @@
     .mobileMenu {
         position: fixed;         /* занимает всё окно */
         top: 0;
-        left: 5%;
-        width: 90%;            /* вся ширина */
+        width: 100%;            /* вся ширина */
         height: 340px;           /* вся высота */
         display: flex;
         justify-content: center;

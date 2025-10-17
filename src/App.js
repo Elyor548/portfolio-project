@@ -27,13 +27,13 @@ function App() {
         <div id="tarif">
         <Tarif />
         </div>
-{/* 
         <div id="bidform">
         <Bidform />
         </div>
+
         <div id="footer">
         <Footer /> 
-        </div> */}
+        </div>
         
 
 

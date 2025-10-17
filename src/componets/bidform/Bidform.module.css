@@ -442,3 +442,144 @@ margin-top: 20px;
 }
 
 }
+
+@media (min-width: 360px) and (max-width: 480px) {
+
+   .contener {
+        margin-top: 150px;
+        background-color: rgba(49, 49, 52, 1);
+        border: 1px;
+        background: linear-gradient(73.49deg, #313134 -57.16%, #222224 3.42%, #12473C 53.17%, #292929 86.16%);
+        /* overflow: hidden; */
+        height: 730px;
+        border: 1px solid rgba(255, 255, 255, 0.2)
+    }  
+
+    .titleColor {
+        width: 277px;
+        opacity: 1;
+        height: 41px;
+        font-family: Ruberoid;
+        font-style: Bold;
+        font-size: 37px;
+        line-height: 111.00000000000001%;
+        letter-spacing: 0%;
+        font-weight: 400;
+        text-shadow: 0px 0px 36px rgba(165, 252, 235, 0.2);
+        background: linear-gradient(91.2deg, #B5FEEF 10.31%, #2EECC5 165.09%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        color: transparent;
+        text-align: center;
+    }   
+
+
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .phoneForLaptob {
+        display: none;
+    }
+
+    .imgPhone {
+        width: 254px;
+        opacity: 1;
+        height: 492px;
+    }
+
+    .laberInput {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .firstLabel {
+        width: 240px;
+        opacity: 1;
+        height: 26px;
+        font-family: Ruberoid;
+        font-style: bold;
+        font-size: 17px;
+        line-height: 154%;
+        letter-spacing: 0%;
+        color: rgba(255, 255, 255, 0.7);
+
+    }
+
+       
+    .firstInput {
+        height: 52px;
+        border-radius: 41px;
+        border:  1.5px solid  rgba(255, 255, 255, 0.2) ;
+        box-shadow: 0px 0px 38px 0px rgba(255, 255, 255, 0.05);
+        color: white;
+        background: rgba(255, 255, 255, 0.05); /* прозрачный темный фон */
+        width: 328px;
+        margin-bottom: 23px;
+    }
+    
+    .firstInput:focus {
+        border-color: rgba(46, 236, 197, 1);
+        box-shadow: 0px 0px 38px 0px rgba(46, 236, 197, 0.3);
+        outline: none;
+    }
+
+    label {
+        position: relative;
+        right: 35px;
+        font-weight: 500;
+    }
+
+
+    .buttonColor {
+        width: 140px;
+        height: 40px;
+        background-color: rgba(46, 236, 197, 0.1);
+        box-shadow: 0 0 10px #0ff,
+        0 0 20px #0ff,
+        0 0 40px #0ff;    
+        border-radius: 49px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        margin: 0 auto;
+        top: 20px;
+    } 
+    
+    
+    .buttonName {
+        width: 100px;
+        height: 19px;
+        background: none;   
+        border: none;       
+        font-family: Ruberoid;
+        font-weight: 400;
+        font-size: 20px;
+        font-style: Semi Bold;
+        color: #FFFFFF;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    } 
+
+    .chiefInpur img {
+        display: flex;
+        margin: 0 auto;
+        margin-top: 150px;
+        height: fit-content;
+    }
+    .chiefInpur {
+        height: 1160px;
+    }
+    
+
+}

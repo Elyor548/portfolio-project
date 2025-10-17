@@ -301,13 +301,13 @@
 }
 
 .titleFirst {
-width: 200px;
+width: 170px;
 height: 64px;
 opacity: 1;
 font-family: Ruberoid;
 font-weight: 400;
 font-style: Extra Bold;
-font-size: 27px;
+font-size: 25px;
 line-height: 118%;
 letter-spacing: 0%;
 background: linear-gradient(91.2deg, #B5FEEF 10.31%, #2EECC5 165.09%);
@@ -323,7 +323,7 @@ color: transparent;
 }
 
 .weStudySmall {
-width: 190px;
+width: 170px;
 height: 34px;
 opacity: 1;
 font-family: Ruberoid;
@@ -377,19 +377,19 @@ color: rgba(255, 255, 255, 0.65);
 
 }
 
-.men {
+.men2 {
     display: none;
 }
 
-.men2 {
+.men {
     width: 230px;
-    height: 350px;
+    height: 250px;
     overflow: hidden;
 }
 
 .headerTwo {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;    
 }
 .ownTitle {
     position: relative;
@@ -397,6 +397,7 @@ color: rgba(255, 255, 255, 0.65);
 }
 
 .firstButton {
+    width: 324px;
     background-color: rgba(46, 236, 197, 0.1);
     border-radius: 49px;
     border: 1.5px solid rgba(32, 140, 118, 1);
@@ -421,7 +422,8 @@ color: rgba(255, 255, 255, 0.65);
     justify-content: center;
     align-items: center;
     margin-top: 20px;   */
-
+    min-width: 324px;
+    max-width: 370px;
     background-color: rgba(46, 236, 197, 0.1);
     border-radius: 49px;
     border: 1.5px solid rgba(32, 140, 118, 1);
@@ -430,6 +432,7 @@ color: rgba(255, 255, 255, 0.65);
     justify-content: center;
     padding: 10px 0px; /* 👈 добавили "воздух" */
     margin-top: 20px;
+    
 
 }
 
@@ -441,12 +444,20 @@ color: rgba(255, 255, 255, 0.65);
     border: none;      
     font-family: Ruberoid;
     font-weight: 400;
-    font-size: 16.5px;
-    font-style: Semi Bold;
+    font-size: 11px;
+    font-style: Medium;
     color: #FFFFFF;
     display: flex;
     justify-content: center;
     align-items: center;
+    line-height: 100%;
+}
+
+.buttonFormobile {
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
 }
 
 }

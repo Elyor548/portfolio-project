@@ -1,5 +1,3 @@
-
-
 import React from "react";
 import s from "./Bidform.module.css";
 
@@ -11,7 +9,7 @@ function Bidform() {
           <div className={s.chiefInpur}>
             <div className={s.kindInput}>
               <div className={s.laberInput}>
-        <h2 className={s.titleColor}>Оставь заявку</h2>
+                <h2 className={s.titleColor}>Оставь заявку</h2>
                 <label className={s.firstLabel} htmlFor="user-name">
                   Ваше ФИО
                 </label>
@@ -49,35 +47,30 @@ function Bidform() {
               </div>
 
               <div className={s.buttonColor}>
-                <button className={s.buttonName}>
-                  Отправить
-                </button>
+                <button className={s.buttonName}>Отправить</button>
               </div>
             </div>
 
-      <img
-        className={s.imgPhone}
-        src={`${process.env.PUBLIC_URL}/mkfvkn.svg`}
-        alt=""
-      />
+            <img
+              className={s.imgPhone}
+              src={`${process.env.PUBLIC_URL}/mkfvkn.svg`}
+              alt=""
+            />
           </div>
         </div>
       </div>
       <div className={s.phoneForLaptob}>
-      <img
-        className={s.imgPhone2}
-        src={`${process.env.PUBLIC_URL}/mkfvkn.svg`}
-        alt=""
-      />
+        <img
+          className={s.imgPhone2}
+          src={`${process.env.PUBLIC_URL}/mkfvkn.svg`}
+          alt=""
+        />
       </div>
     </div>
-    
   );
 }
 
 export default Bidform;
-
-
 
 // import React from "react";
 // import s from "./Bidform.module.css";
@@ -86,7 +79,7 @@ export default Bidform;
 //   return (
 //     <div className={s.contener}>
 //           <h2 className={s.titleColor}>Оставь заявку</h2>
-          
+
 //           <div className={s.gridcon}>
 //           <div className={s.chiefInpur}>
 //           <div className={s.kindInput}>
@@ -123,18 +116,15 @@ export default Bidform;
 //               <input className={s.firstInput} type="email" />
 //             </div>
 //           </div>
-  
+
 //           <div>
 //           <img className={s.imgPhone} src={`${process.env.PUBLIC_URL}/iPhone 13 Pro.png`} alt="" viewBox="0 0 100 100" />
 //           </div>
 //           </div>
 //           </div>
 
-       
-
 //       </div>
 //   );
 // }
 
 // export default Bidform;
-
