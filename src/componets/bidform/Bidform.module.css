@@ -489,7 +489,12 @@ margin-top: 20px;
     .imgPhone {
         width: 254px;
         opacity: 1;
-        height: 492px;
+        position: absolute;
+        left: 50%;
+        top: 28.5%;
+        transform: translate(-50%, -50%);
+        height: auto;
+        max-height: 492px;
     }
 
     .laberInput {
@@ -572,12 +577,16 @@ margin-top: 20px;
     } 
 
     .chiefInpur img {
-        display: flex;
+        /* display: flex;
         margin: 0 auto;
         margin-top: 150px;
-        height: fit-content;
+        height: fit-content; */
+        position: relative;
+
     }
     .chiefInpur {
+        position: relative;
+
         height: 1160px;
     }
     
