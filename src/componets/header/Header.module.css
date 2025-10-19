@@ -294,7 +294,7 @@
 }
 
 
-@media (min-width: 360px ) and (max-width: 480px ){ 
+@media (min-width: 360px ) and (max-width: 768px ){ 
 
 .contener {
     padding-top: 130px;

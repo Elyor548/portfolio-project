@@ -47,7 +47,10 @@ function Tarif() {
                   <p className={s.time}>От 5 дней</p>
                 </div>
                 <div className={s.buttonName}>
+                  <a href="#bidform">
+
                   <button className={s.buttomText}>Подробнее</button>
+                  </a>
                 </div>
               </div>
             </div>
@@ -69,7 +72,10 @@ function Tarif() {
                   <p className={s.time}>От 15 дней</p>
                 </div>
                 <div className={s.buttonName}>
+                  <a href="#bidform">
+
                   <button className={s.buttomText}>Подробнее</button>
+                  </a>
                 </div>
               </div>
             </div>
@@ -90,7 +96,10 @@ function Tarif() {
                   <p className={s.time}>От 5 дней</p>
                 </div>
                 <div className={s.buttonName}>
+                  <a href="#bidform">
+
                   <button className={s.buttomText}>Подробнее</button>
+                  </a>
                 </div>
               </div>
             </div>

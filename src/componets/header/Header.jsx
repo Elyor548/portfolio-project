@@ -19,7 +19,10 @@ function Header() {
           </div>
           <div className={s.quationButton}>
             <div className={s.buttonMore}>
-              <button className={s.buttonName}>Подробнее </button>
+              <button className={s.buttonName} onClick={() => {
+      const el = document.getElementById("portfolio");
+      if (el) el.scrollIntoView({ behavior: "smooth" });
+    }} >Подробнее </button>
             </div>
             <input
         className={s.quation}

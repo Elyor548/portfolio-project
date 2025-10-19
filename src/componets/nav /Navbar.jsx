@@ -43,17 +43,19 @@ function Navbar() {
         <div className={s.navbut}>
           <div className={s.navigate}>
             <li>
-              <a href="#">Главная</a>
+              <a href="#nav">Главная</a>
             </li>
             <li>
-              <a href="#">Почему именно мы?</a>
+              <a href="#reason">Почему именно мы?</a>
             </li>
             <li>
-              <a href="#">Контакты</a>
+              <a href="#footer">Контакты</a>
             </li>
           </div>
           <div className={s.button}>
+            <a href="#bidform">
             <button className={s.buttonname}>Заказать</button>
+            </a>
           </div>
         </div>
       </header>

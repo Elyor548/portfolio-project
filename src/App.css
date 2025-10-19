@@ -2,6 +2,7 @@ body {
   background-color: #161617 ;
 }
 
-html {
+html, body {
   scroll-behavior: smooth;
+  overflow-y: auto;
 }

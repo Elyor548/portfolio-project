@@ -443,7 +443,7 @@ margin-top: 20px;
 
 }
 
-@media (min-width: 360px) and (max-width: 480px) {
+@media (min-width: 360px) and (max-width: 768px) {
 
    .contener {
         margin-top: 150px;

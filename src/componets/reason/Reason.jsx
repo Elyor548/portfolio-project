@@ -16,7 +16,9 @@ function Reason() {
             портфолио
           </p>
           <div className={s.nameButton}>
+          <a href="#portfolio">            
             <button className={s.ButtonPortfolio}>Портфолио</button>
+            </a>
           </div>
         </div>
         <img className={s.goodprice} src={`${process.env.PUBLIC_URL}/goodprice.svg`} alt="good price" />
